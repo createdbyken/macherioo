@@ -1,0 +1,130 @@
+/* INDEX OF CSS STYLES*/
+
+/*CARDS*/
+.card-content{
+    margin: 15px;
+    padding: 5px;
+}
+
+.card-outline{
+    width: 322px;
+    height: 203px;
+    left: 450.5px;
+    top: 67.5px;
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.card {
+    width: 322px;
+    height: 203px;
+    left: 450.5px;
+    top: 67.5px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+
+/*BORDRS*/
+.b-radius0px{
+    border-radius: 0px;
+}
+.b-radius6px{
+    border-radius: 6px;
+}
+.b-radius8px{
+    border-radius: 8px;
+}
+.b-radius10px{
+    border-radius: 10px;
+}
+.b-radius12px{
+    border-radius: 12px;
+}
+.b-radius14px{
+    border-radius: 14px;
+}
+.b-radius16px{
+    border-radius: 16px;
+}
+.b-radius18px{
+    border-radius: 18px;
+}
+.b-radius20px{
+    border-radius: 20px;
+}
+
+
+
+/* BUTTONS */
+
+.btn-normal{
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    overflow: hidden;
+    height: 35px;
+    padding: 0 16px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btn-normal-outline{
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    overflow: hidden;
+    height: 35px;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(66, 66, 66);
+    background: transparent;
+    outline: none;
+}
+
+
+/*NavBars*/
+.right {
+    float: right !important;
+}
+ul:not(.browser-default)>li {
+    list-style-type: none;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+nav{
+    color: #fff;
+    background-color: #252525;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+nav .wrapping {
+    position: relative;
+    height: 100%;
+}
+
+nav ul li {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    float: left;
+    padding: 0;
+}
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: rgb(31, 31, 31);
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
