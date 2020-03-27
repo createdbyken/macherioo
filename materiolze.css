@@ -28,6 +28,16 @@
     border-radius: 6px;
 }
 
+.badge{
+    position: relative;
+    width: 115px;
+    height: 39px;
+    left: 140px;
+    top: 199px;
+    background: #1DBDC0;
+    border-radius: 6px;
+}
+
 
 /*BORDRS*/
 .b-radius0px{
@@ -128,3 +138,4 @@ ul:not(.browser-default) {
     padding-left: 0;
     list-style-type: none;
 }
+
