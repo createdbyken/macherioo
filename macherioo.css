@@ -46,6 +46,7 @@ h5{
     margin: 2.8rem 0 1.68rem 0;
 }
 
+<<<<<<< HEAD:macherioo.css
 h6{
     font-size: 4.0vh;
     line-height: 110%;
@@ -64,6 +65,18 @@ li {
 /**********  
     CSS
 ***********/
+=======
+.badge{
+    position: relative;
+    width: 115px;
+    height: 39px;
+    left: 140px;
+    top: 199px;
+    background: #1DBDC0;
+    border-radius: 6px;
+}
+
+>>>>>>> components:macherioo.css
 
 /*BORDRS*/
 .b-radius0px{
@@ -234,3 +247,4 @@ ul:not(.browser-default) {
     padding-left: 0;
     list-style-type: none;
 }
+
