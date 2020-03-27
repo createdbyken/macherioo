@@ -64,14 +64,31 @@ li {
 /**********  
     CSS
 ***********/
+.card-outline{
+    width: 322px;
+    height: 203px;
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.card {
+    width: 322px;
+    height: 203px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
 .badge{
-    position: relative;
     width: 115px;
     height: 39px;
-    left: 140px;
-    top: 199px;
     background: #1DBDC0;
     border-radius: 6px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
 }
 
 
